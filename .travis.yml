@@ -1,18 +1,17 @@
-language: go
-
-go:
-  - master
+language: python
 
 install:
-  - go get github.com/spf13/hugo
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.39/hugo_0.39_Linux-64bit.deb
+    - sudo dpkg -i hugo*.deb
+    - pip install Pygments
 
 script:
   - hugo
 
 deploy:
   provider: pages
-  github_token: $GITHUB_TOKEN
   skip_cleanup: true
   local_dir: public
+  github_token: $GITHUB_TOKEN
   on:
     branch: master
