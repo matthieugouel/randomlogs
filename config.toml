@@ -1,4 +1,4 @@
-baseurl = "https://randomlogs.io"
+baseurl = "https://matthieugouel.github.io"
 title = "Random Logs"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
