@@ -9,9 +9,13 @@ script:
   - hugo
 
 deploy:
+  local_dir: public
+  repo: matthieugouel/matthieugouel.github.io 
+  target_branch: master
   provider: pages
   skip_cleanup: true
-  local_dir: public
   github_token: $GITHUB_TOKEN
+  email: matthieu.gouel@gmail.com
+  name: "matthieugouel"
   on:
     branch: master
