@@ -40,7 +40,7 @@
         <meta name="twitter:title" content="{{ .Title }}" />
         {{ else }}
         <meta name="twitter:title" content="{{ .Site.Title }}" />
-        <meta name="twitter:description" content="{{ .Description }}" />
+        <meta name="twitter:description" content="{{ .Site.Params.description }}" />
         {{ end }}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="{{ .Site.BaseURL }}/img/main/logo.png" />

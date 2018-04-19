@@ -13,7 +13,7 @@ defaultContentLanguageInSubdir = true
 
 [params]
   # Sets the meta tag description
-  description          = "A collection of random thoughts from Matthieu Gouel. Powered by Hugo"
+  description          = "A collection of random thoughts from Matthieu Gouel."
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "Random Logs"
   # Sets where "View More Posts" links
@@ -100,7 +100,7 @@ defaultContentLanguageInSubdir = true
         languageCode = "fr"
         LanguageName = "Français"
         title = "Random Logs"
-        description = "Random Logs écrit par Matthieu Gouel."
+        description = "A collection of random thoughts."
         weight = 1
 
         [Languages.fr.params.intro]
@@ -143,7 +143,7 @@ defaultContentLanguageInSubdir = true
         languageCode = "en-US"
         LanguageName = "English"
         title = "Random Logs"
-        description = "Random Logs written by Matthieu Gouel."
+        description = "A collection of random thoughts."
         weight = 2
 
         [Languages.en.params.intro]
