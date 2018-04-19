@@ -1,6 +1,6 @@
 ---
 title: Hello, world!
-description: Bienvenue sur Random logs.
+description: Bienvenue sur Random Logs.
 date: "2018-04-17"
 ---
 

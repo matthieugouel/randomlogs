@@ -38,8 +38,8 @@ defaultContentLanguageInSubdir = true
   # apple-touch-icon-precomposed.png, favicon.png, favicon.ico, and mstile.png.
   # These are stored in the favicon folder. See the following for more information:
   # https://github.com/audreyr/favicon-cheat-sheet
-  loadFavicon          = false
-  faviconVersion       = ""
+  loadFavicon          = true
+  faviconVersion       = "1.0"
   # Sets Social Share links to appear on posts
   socialShare          = true
   # Load custom CSS or JavaScript files. The variable is an array so that you
@@ -82,7 +82,7 @@ defaultContentLanguageInSubdir = true
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
-    src       = "/img/main/init_logo.png"
+    src       = ""
     # Sets Image to be a cirlce
     circle    = false
     # Sets Image to be Future Imperfect's hexagon
@@ -100,7 +100,7 @@ defaultContentLanguageInSubdir = true
         languageCode = "fr"
         LanguageName = "Français"
         title = "Random Logs"
-        description = "Random Logs écrit par Matthieu Gouel. Thème \"Future Imperfect\"  porté by Julio Pescador. Construit via Hugo."
+        description = "Random Logs écrit par Matthieu Gouel."
         weight = 1
 
         [Languages.fr.params.intro]
@@ -143,7 +143,7 @@ defaultContentLanguageInSubdir = true
         languageCode = "en-US"
         LanguageName = "English"
         title = "Random Logs"
-        description = "Random Logs from Matthieu Gouel. \"Future Imperfect\" Theme ported by Julio Pescador. Powered by Hugo."
+        description = "Random Logs written by Matthieu Gouel."
         weight = 2
 
         [Languages.en.params.intro]

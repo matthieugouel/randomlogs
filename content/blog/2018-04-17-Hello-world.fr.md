@@ -2,9 +2,9 @@
 title: Hello, world!
 description: Bienvenue sur Random logs.
 date: "2018-04-17"
-featured: "init_banner.png"
-featuredalt: "Init"
-featuredpath: "date"
+featured: "init.png"
+featuredalt: "init"
+featuredpath: "img/blog"
 linktitle: ""
 type: post
 ---

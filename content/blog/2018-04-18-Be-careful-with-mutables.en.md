@@ -2,9 +2,9 @@
 title: Be careful with mutables.
 description: Strange things may happen.
 date: "2018-04-18"
-featured: "banner_blog1.png"
-featuredalt: "Init"
-featuredpath: "date"
+featured: "dev.png"
+featuredalt: "dev"
+featuredpath: "img/blog"
 linktitle: ""
 categories: ["Development"]
 tags: ["Python"]

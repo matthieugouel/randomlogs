@@ -1,7 +1,7 @@
 ---
 type: "itemized"
 author: "Matthieu Gouel"
-date: "2018"
+date: "2018-01-02"
 title: "Python Flask API Skeleton"
 description: "Un squelette scalable d'API Flask."
 featured: ""

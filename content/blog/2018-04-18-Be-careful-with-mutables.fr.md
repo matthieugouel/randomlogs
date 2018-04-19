@@ -2,16 +2,16 @@
 title: Les mutables sont fourbes
 description: Vous pourriez être surpris.
 date: "2018-04-18"
-featured: "banner_blog1.png"
-featuredalt: "Init"
-featuredpath: "date"
+featured: "dev.png"
+featuredalt: "dev"
+featuredpath: "img/blog"
 linktitle: ""
 categories: ["Développement"]
 tags: ["Python"]
 type: post
 ---
 
-En Python il y a deux types d'objets :les mutables et les immutables. Pourquoi pas qu'un seul ? Parce que les deux sont bien pratiques selon la situation et permettent d'aborder le code de façon différentes.
+En Python il y a deux types d'objets :les mutables et les immutables. Pourquoi pas un seul ? Parce que les deux sont bien pratiques selon la situation et permettent d'aborder le code de façon différentes. Voyons tout ça plus en détail.
 
 <!--more-->
 
