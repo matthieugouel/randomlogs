@@ -38,10 +38,12 @@
         {{ if .IsPage }}
         <meta name="twitter:description" content="{{ .Description }}" />
         <meta name="twitter:title" content="{{ .Title }}" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="{{ .Site.BaseURL }}/img/main/logo.png" /> {{ else }}
+        {{ else }}
         <meta name="twitter:title" content="{{ .Site.Title }}" />
-        <meta name="twitter:description" content="{{ .Description }}" /> {{ end }}
+        <meta name="twitter:description" content="{{ .Description }}" />
+        {{ end }}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="{{ .Site.BaseURL }}/img/main/logo.png" />
         {{ template "_internal/opengraph.html" . }}
         <meta property="og:image" content="{{ .Site.BaseURL }}/img/main/logo.png">
         <meta property="og:image:type" content="image/png">
