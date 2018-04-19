@@ -100,7 +100,7 @@ defaultContentLanguageInSubdir = true
         languageCode = "fr"
         LanguageName = "Français"
         title = "Random Logs"
-        description = "A collection of random thoughts."
+        description = "A collection of random thoughts (fr)."
         weight = 1
 
         [Languages.fr.params.intro]
@@ -143,7 +143,7 @@ defaultContentLanguageInSubdir = true
         languageCode = "en-US"
         LanguageName = "English"
         title = "Random Logs"
-        description = "A collection of random thoughts."
+        description = "A collection of random thoughts (en)."
         weight = 2
 
         [Languages.en.params.intro]
