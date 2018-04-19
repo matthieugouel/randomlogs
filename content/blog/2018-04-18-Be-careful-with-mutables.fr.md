@@ -11,7 +11,7 @@ tags: ["Python"]
 type: post
 ---
 
-En Python il y a deux types d'objets :les mutables et les immutables. Pourquoi pas un seul ? Parce que les deux sont bien pratiques selon la situation et permettent d'aborder le code de façon différentes. Voyons tout ça plus en détail.
+En Python il y a deux types d'objets : les mutables et les immutables. Pourquoi pas un seul ? Parce que les deux sont bien pratiques selon la situation et permettent d'aborder le code de façon différentes. Voyons tout ça plus en détail.
 
 <!--more-->
 
