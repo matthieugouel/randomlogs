@@ -9,7 +9,9 @@ pluralizeListTitles = false
 
 # Sets the default language for multilanguage use.
 defaultContentLanguage = "fr"
-defaultContentLanguageInSubdir = true
+
+# In case of multilingual
+# defaultContentLanguageInSubdir = true
 
 [params]
   # Sets the meta tag description
