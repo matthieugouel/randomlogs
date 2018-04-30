@@ -3,12 +3,12 @@
     {{ if or .IsHome (not .Site.Params.DynamicTitles) }}
       <h1><a href="{{ "/" | relLangURL }}">{{ .Site.Params.navbarTitle }}</a></h1>
     {{ else if ne .Section "" }}
-      {{ if i18n .Section }} 
+      {{ if i18n .Section }}
         <h1><a href="{{ "/" | relLangURL }}">{{ i18n .Section }}</a></h1>
       {{ else }}
         <h1><a href="{{ "/" | relLangURL }}">{{ .Section }}</a></h1>
       {{ end }}
-    {{ else }} 
+    {{ else }}
         <h1><a href="{{ "/" | relLangURL }}">{{ .Title }}</a></h1>
     {{ end }}
 
