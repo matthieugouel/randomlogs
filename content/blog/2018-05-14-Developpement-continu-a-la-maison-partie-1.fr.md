@@ -1,5 +1,5 @@
 ---
-title: Développement continu à la maison
+title: Développement continu à la maison (partie 1)
 description: Introduction
 date: "2018-05-14"
 featured: "devops.jpg"
