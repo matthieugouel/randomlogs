@@ -36,7 +36,7 @@ Voilà j’espère vous avoir un peu convaincu sur l’utilisation de cette tech
 * Gestion des volumes persistants, des secrets, …
 
 Ah oui, Kubernetes est un orchestrateurs de conteneurs. Ok, mais quoi comme conteneurs exactement ?
-Même si ce n’est pas obligatoire, dans la grande majorité des cas les gens utilisent Kubernetes conjointement avec [Docker](https://www.docker.com/).  D’autres systèmes de conteneurisation existent (je pense notamment à Rocket ou OpenShift) mais bon pour notre cas il n’y a pas vraiment d’intérêt à choisir autre chose que Docker.
+Même si ce n’est pas obligatoire, dans la grande majorité des cas les gens utilisent Kubernetes conjointement avec [Docker](https://www.docker.com/).  D’autres systèmes de conteneurisation existent (je pense notamment à Rocket) mais bon pour notre cas il n’y a pas vraiment d’intérêt à choisir autre chose que Docker.
 
 ## Les services de base au développement continu
 
