@@ -13,6 +13,8 @@ type: post
 
 Premier article du thème DevOps. Ce thème regroupera les articles parlant des sujets d’automatisation et de déploiement d’applications dans un environment de production. C’est vaste !
 
+<!-- more -->
+
 Je vous propose dans cette série d’articles de construire pas à pas notre écosystème moderne de développement continu.  Nous commencerons par installer un orchestrateur qui nous servira de fondations pour notre système. Sur ces fondations nous déploierons les services nécessaires pour faire de l’intégration continue comme un logiciel de gestion de version, un système de développement continu, des dépôts etc … Enfin, une fois tout ça fait il ne nous restera plus qu’à mettre en place notre workflow afin de déployer nos propres applications au sein même de notre orchestrateur. La boucle est bouclée !
 
 ## Kubernetes comme orchestrateur

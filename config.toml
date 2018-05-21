@@ -78,7 +78,7 @@ defaultContentLanguage = "fr"
   # required for proper functionality. HTML is supported within the params.
 [params.intro]
   header    = "Random Logs"
-  paragraph = "A collection of random thoughts."
+  paragraph = "A collection of random thoughts"
   about = "This blog is meant to share my thoughts and what I learn day to day. It's not something very serious, more like a succession of \"random logs\" of my personal experience."
 
   # This appears at the top of the sidebar above params.intro.header.
@@ -107,7 +107,7 @@ defaultContentLanguage = "fr"
 
         [Languages.fr.params.intro]
           header    = "Random Logs"
-          paragraph = "A collection of random thoughts."
+          paragraph = "A collection of random thoughts"
           about = "Ce blog a pour but de partager mes pensées du moment ou ce que j'apprends au jour le jour. Ce n'est pas nécessairement quelque chose de très sérieux ou très élaboré, plutôt une succession de petites pensées aléatoires tirées de mon expérience personnelle."
 
 
