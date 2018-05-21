@@ -72,3 +72,8 @@ On a donc fait le tour des technologies que l’on va mettre en place dans cette
 
 Dans le prochain article de ce thème on mettra enfin la main à la pâte. Il s’agira de créer notre propre cluster Kubernetes !
 A bientôt donc pour poser la première brique de notre écosystème DevOps.
+
+Les articles de la série :
+
+* [Développement continu à la maison (partie 1)](https://matthieugouel.github.io/blog/2018-05-14-developpement-continu-a-la-maison-partie-1/)
+* [Développement continu à la maison (partie 2)](https://matthieugouel.github.io/blog/2018-05-20-developpement-continu-a-la-maison-partie-2/)

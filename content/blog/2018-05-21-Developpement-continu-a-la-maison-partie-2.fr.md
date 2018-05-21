@@ -1,7 +1,7 @@
 ---
 title: Développement continu à la maison (partie 2)
 description: Installation du cluster Kubernetes
-date: "2018-05-20"
+date: "2018-05-21"
 featured: "devops.jpg"
 featuredalt: "devops"
 featuredpath: "img/blog"
@@ -163,7 +163,6 @@ systemctl enable ntpd
 systemctl start ntpd
 ```
 
-
 ### Installation du cluster avec Kubeadm
 
 Ici je vous laisse suivre la documentation pour installer Kubeadm [ici](https://kubernetes.io/docs/setup/independent/install-kubeadm/).
@@ -216,3 +215,8 @@ kubectl delete namespace sock-shop
 Eh beh, je sais pas pour vous mais moi je suis tout de même assez fier d’avoir mon cluster Kubernetes multi-node qui tourne à la maison ! Peu importe le temps que ça vous a pris pour le monter, l’objectif est double : avoir une base pour nos développements futurs et apprendre quelque chose. Personnellement j’ai pris mon temps pour faire tout ça mais j’ai l’impression d’avoir une base assez solide sur laquelle je peux me reposer. Cela reste un MVP (Minimum Viable Product) mais nous allons étoffer tout cela au fur et à mesure.
 
 Dans le prochain article on déploiera notre première vraie application sur notre cluster ! Peut-Être que vous l’avez déjà deviné mais ce sera [Træfik](https://traefik.io/), qui nous permettra de gérer l’interface entre notre cluster tout frais et le reste du monde (ou du moins le reste de notre réseau local).
+
+Les articles de la série :
+
+* [Développement continu à la maison (partie 1)](https://matthieugouel.github.io/blog/2018-05-14-developpement-continu-a-la-maison-partie-1/)
+* [Développement continu à la maison (partie 2)](https://matthieugouel.github.io/blog/2018-05-20-developpement-continu-a-la-maison-partie-2/)
