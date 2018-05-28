@@ -1,6 +1,6 @@
 ---
 title: Gérer nos certificats SSL
-description:
+description: Gratuitement bien sûr !
 date: "2018-05-28"
 featured: "security.jpg"
 featuredalt: "security"
