@@ -219,4 +219,5 @@ Dans le prochain article on déploiera notre première vraie application sur not
 Les articles de la série :
 
 * [Développement continu à la maison (partie 1)](https://matthieugouel.github.io/blog/2018-05-14-developpement-continu-a-la-maison-partie-1/)
-* [Développement continu à la maison (partie 2)](https://matthieugouel.github.io/blog/2018-05-20-developpement-continu-a-la-maison-partie-2/)
+* [Développement continu à la maison (partie 2)](https://matthieugouel.github.io/blog/2018-05-21-developpement-continu-a-la-maison-partie-2/)
+* [Développement continu à la maison (partie 3)](https://matthieugouel.github.io/blog/2018-06-04-developpement-continu-a-la-maison-partie-3/)
