@@ -51,10 +51,19 @@ On peut très bien installer Traefik à l’extérieur du cluster, mais bon on e
 
 > Une raison de ne pas installer Traefik dans notre cluster serait d’optimiser les performances. Traefik va être assez chargé car il doit traiter toutes les requêtes qui atteignent le cluster. C’est donc une bonne idée de le mettre sur une machine costaude et indépendante du cluster. Après, comment vous allez le voir tout de suite, Traefik lui-même peut être réparti sur plusieurs instances dans le cluster, et peut donc aussi profiter des fonctionnalités de scaling, de résilience et  d’automatisation de Kubernetes. C’est un choix !
 
-Avant d’installer Traefik sur notre cluster nous allons avoir besoin de rajouter le certificat généré dans le paragraphe précédent en tant que secret dans notre cluster. Ça se fait en une ligne avec cette commande (attention vous devez être dans le même répertoire que votre couple clé/certificat et évidement que les noms correspondent)
+
+
+Avant d’installer Traefik sur notre cluster nous allons avoir besoin de rajouter le certificat généré dans le paragraphe précédent en tant que secret dans notre cluster. Et pour faire cela nous allons devoir créer le namespace *traefik*.
 
 ```bash
-kubectl create secret tls home --cert=home.local.crt --key=device.key
+kubectl create namespace traefik
+```
+
+Ensuite, il faut créer le secret en lui-même. Ça se fait en une ligne avec cette commande (attention vous devez être dans le même répertoire que votre couple clé/certificat et évidement que les noms correspondent).
+
+
+```bash
+kubectl create secret tls home --cert=home.local.crt --key=device.key -n traefik
 ```
 
 Il est aussi possible de faire en sorte que Traefik génère un certificat let's encrypt à l'installation. Pour cela il faut modifier la configuration du `traefik.toml` dans le *configmap* du manifest afin de rajouter les options ACME (voir [ici](https://docs.traefik.io/configuration/acme/) pour plus d’info).
@@ -293,3 +302,4 @@ Les articles de la série :
 * [Développement continu à la maison (partie 1)](https://matthieugouel.github.io/blog/2018-05-14-developpement-continu-a-la-maison-partie-1/)
 * [Développement continu à la maison (partie 2)](https://matthieugouel.github.io/blog/2018-05-21-developpement-continu-a-la-maison-partie-2/)
 * [Développement continu à la maison (partie 3)](https://matthieugouel.github.io/blog/2018-06-04-developpement-continu-a-la-maison-partie-3/)
+* [Développement continu à la maison (partie 4)](https://matthieugouel.github.io/blog/2018-06-27-developpement-continu-a-la-maison-partie-4/)
