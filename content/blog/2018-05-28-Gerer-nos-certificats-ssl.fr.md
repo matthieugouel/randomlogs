@@ -2,8 +2,8 @@
 title: Gérer nos certificats SSL
 description: Gratuitement bien sûr !
 date: "2018-05-28"
-featured: "security.jpg"
-featuredalt: "security"
+featured: "devops.jpg"
+featuredalt: "devops"
 featuredpath: "img/blog"
 linktitle: ""
 categories: ["Security"]
