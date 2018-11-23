@@ -118,7 +118,7 @@ print(fibonacci(20))
 Les différences principales avec *Gibica* sont les blocs indentés (fini  les accolades !) et la disparition de la mutabilité explicite (fini le mot clé `mut` !).  Également, comme on peut le voir dans le commentaire de l’exemple ci-dessus, *Bjørn* gère les caractères [unicode](https://fr.wikipedia.org/wiki/Unicode) (contrairement à *CPython*). Enfin les point-virgule à la fin des expressions ont disparu. 
 
 ## Alors, finalement, c’était utile ?
-Maintenant que *Gibica* et *Bjorn* ont le même nombre de fonctionnalités on va enfin pouvoir comparer leurs performances et ainsi vérifier si le choix judicieux d’un langage de programmation peut changer la donne. Je vais également confronter les résultats avec les performances de *CPython 3.7* afin d’avoir une base de comparaison.
+Maintenant que *Gibica* et *Bjørn* ont le même nombre de fonctionnalités on va enfin pouvoir comparer leurs performances et ainsi vérifier si le choix judicieux d’un langage de programmation peut changer la donne. Je vais également confronter les résultats avec les performances de *CPython 3.7* afin d’avoir une base de comparaison.
 
 > Note: Les benchmarks suivants ont été réalisés avec [hyperfine](https://github.com/sharkdp/hyperfine), une application codée en Rust qui permet de faire des tests de performances sur des applications en ligne de commande avec une bonne précision. __Sur tous les graphiques, la valeur la plus basse est la meilleure.__
 
@@ -146,7 +146,7 @@ Par contre pour `n=30` ce n’est plus la même :
 
 {{< img-post path="date" file="recursive_function_expensive.png" alt="Variable Declaration" type="center" >}}
 
-Ici *Gibica* prends plus d’une minute et demi pour s’exécuter, et *Bjorn* prends tout de même 11 secondes ! On dirait que ça va si on le compare à *Gibica* mais en fait non car*CPython* ne prends lui que 400 millisecondes … Damn, le flibustier !
+Ici *Gibica* prends plus d’une minute et demi pour s’exécuter, et *Bjørn* prends tout de même 11 secondes ! On dirait que ça va si on le compare à *Gibica* mais en fait non car*CPython* ne prends lui que 400 millisecondes … Damn, le flibustier !
 
 Bon, avec ces tests on peut faire quelques petites conclusions :
 
@@ -169,6 +169,6 @@ J’ai vraiment appris énormément de choses durant ces derniers mois. D’abor
 Selon moi deux projets se dégagent des différentes conclusions faites dans cet article. 
 
 * *Gibica* a besoin de gros changements. Je pense que le plus sympa et logique serait d’en faire un compilateur. 
-* *Bjorn* pourrait utiliser un langage intermédiaire pour se rapprocher des performances de *CPython*. Je pense que ce serait intéressant de le faire à ce moment du projet pour ne pas avoir à trop modifier le code plus tard. Même aujourd’hui cela va demander un travail conséquent donc autant le faire tant que le nombre de fonctionnalités n’est pas trop élevé. 
+* *Bjørn* pourrait utiliser un langage intermédiaire pour se rapprocher des performances de *CPython*. Je pense que ce serait intéressant de le faire à ce moment du projet pour ne pas avoir à trop modifier le code plus tard. Même aujourd’hui cela va demander un travail conséquent donc autant le faire tant que le nombre de fonctionnalités n’est pas trop élevé. 
 
 Dans ces deux projets je compte utiliser *LLVM* (Low Level Virtual Machine), que ce soit pour convertir l’AST en un langage intermédiaire ou bien pour interpréter / compiler celui-ci. Ces deux projets seront donc utiles l’un pour l’autre ce qui accélérera peut-être un peu les développements. Encore de beaux challenges en perspective!
